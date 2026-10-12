@@ -22,7 +22,7 @@ spec:
           type: RuntimeDefault
       containers:
         - name: web
-          image: docker.io/amolamol2403/gitops-demo:1.0.0
+          image: docker.io/amolamol2403/gitops:1.0.0
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
